@@ -12,9 +12,29 @@ body {
 
 }
 
-.tea-menu {
+.tea-menu{
   width: 80%;
   background-color: rgba(0, 0, 0, 0.363);
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color:white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.tea-items p{
+  /* background-color:royalblue; */
+  display: inline-block;
+}
+
+.tea-flavor, .tea-collections{
+  width: 50%;
+  text-align: left;
+}
+
+.tea-price, .collection-price{
+  width: 50%;
+  text-align: right;
 }
