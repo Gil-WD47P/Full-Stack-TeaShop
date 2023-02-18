@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="tea shop, Full-Stack tea" />
     <meta name="author" content="Gilbert Terbio" />
     <link rel="stylesheet" href="img/style.css" />
@@ -11,15 +11,26 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title> TeaShop</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
+    <!--Header Section-->
     <div class="tea-menu">
-      <!--Header Section-->
-      <header>
+      <header class="tea-icon">
         <h1>Gil's TeaShop</h1>
-        <p class="established">Serving you since 2023</p>
+        <img src="img/clipart1343880.png" alt="tea-icon">
       </header>
+      <p class="established">Serving you since 2023</p>
+      <hr class="topline">
+
       <!-- Main Section -->
       <main>
         <!-- Section 1-->
@@ -59,10 +70,14 @@
           </article>
         </section>
       </main>
+      <hr class="bottomline">
       <!--Footer Section-->
       <footer>
-        <p><a href="#">Visit Our Website</a></p>
-        <p>Los Baños, Laguna</p>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
       </footer>
     </div>
   </body>

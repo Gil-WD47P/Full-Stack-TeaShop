@@ -1,20 +1,34 @@
-h1,
-h2,
-p {
+h1, p {
   text-align: center;
+}
+h2{
+  text-align: center;
+  background-color: yellowgreen;
 }
 
 body {
   background-color: rgb(228, 202, 168);
-  background-image:url(../img/pexels-eva-bronzini-6474328.jpg);
-  background-size: cover;
+  background-image:url(../img/matcha-tea-powder-tea-accessories-black-background-tea-ceremony-traditional-japanese-drink-vertical-format_138656-933.jpg);
   background-repeat: no-repeat;
+  background-size:cover;
 }
+
+.tea-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  height: 50px;
+  width: 50px;
+  margin: auto 10px;
+} 
 
 .tea-menu{
   width: 80%;
   max-width: 500px;
-  background-color: rgba(0, 0, 0, 0.603);
+  background-color: rgba(0, 0, 0, 0.904);
   margin-left: auto;
   margin-right: auto;
   font-family: 'Montserrat', sans-serif;
@@ -25,9 +39,25 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .established{
   font-style: italic;
-  font-size: 15px
+  font-size: 15px;
+}
+
+hr{
+  height: 2px;
+  background-color: white;
+  border-color: black;
+}
+
+.topline{
+  margin-top: 25px;
+}
+
+.bottomline{
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 .tea-items p{
@@ -43,4 +73,34 @@ body {
 .tea-price, .collection-price{
   width: 50%;
   text-align: right;
+}
+
+footer{
+  position: relative;
+  background:rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social{
+  display: flex;
+}
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: yellowgreen;
+  text-decoration: none;
+  font-size: 20px;
+}
+.social a:hover{
+  transform: scale(1.3);
+  transition: .3s;
 }
