@@ -1,0 +1,20 @@
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+body {
+  background-color: rgba(228, 202, 168, 0.259);
+  background-image:url(../img/pexels-eva-bronzini-6474328.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.tea-menu {
+  width: 80%;
+  background-color: rgb(228, 202, 168);
+  margin-left: auto;
+  margin-right: auto;
+}
